@@ -1,6 +1,6 @@
 import React from 'react'
 import { IoIosArrowDown } from 'react-icons/io'
-import { IoArrowDown } from 'react-icons/io5'
+
 
 const Footer = () => {
   return (
