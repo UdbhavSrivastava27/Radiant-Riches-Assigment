@@ -143,7 +143,7 @@ Sign up and get exclusive special deals
 
 <div>
 
-    <input type="text"  className=" h-12 w-96 rounded-l-xl px-4 border-2"  value={value}
+    <input type="text"  className=" h-12 w-96 rounded-l-xl px-4 border-2" placeholder="Enter Your Mail" value={value}
         onChange={handleChange}/>
 
     <button className=" bg-[#1B88F4] h-12 rounded-r-lg p-2">Sign Up</button>
