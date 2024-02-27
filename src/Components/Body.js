@@ -85,7 +85,7 @@ const Body = () => {
              </div>
             </div>
 
-            <div className=" mt-4 flex flex-row items-center">
+            <div className=" mt-4 flex flex-row items-center overflow-x-auto cursor-pointer">
                 <h1 className=" m-2">Home  </h1>
 
                 <p className=" mx-1 font-semibold">{`  >`}</p>
