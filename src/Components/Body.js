@@ -24,21 +24,21 @@ const Body = () => {
   };
   const numberOfInstances = [1, 2, 3];
   return (
-    <div className=" flex flex-col items-center justify-center bg-[#f3f3f3] pb-10">
-      <div className=" w-auto   mt-10">
+    <div className=" flex flex-col md:items-center justify-center bg-[#f3f3f3]  md:pb-10 ">
+      <div className=" w-auto  mt-2 md:mt-10 ">
 
-        <div>
-          <h1 className=" text-5xl m-2 ">Best Website builders in the US</h1>
+        <div className=" ">
+          <h1 className=" text-4xl md:text-5xl m-2 ">Best Website builders in the US</h1>
         </div>
 
-        <hr className=" border-2 border-[#E1E4E6] mt-4"></hr>
+        <hr className=" border-b-2 border-[#E1E4E6] mt-4"></hr>
           
 
 
-          <div className=" flex flex-row justify-between">
+          <div className=" flex flex-row justify-between ">
 
-         <div className="flex flex-row items-center 
-          m-2 space-x-3 p-2" >
+         <div className=" hidden md:flex flex-row items-center 
+          m-2 space-x-3 p-2 " >
         < IoCheckmarkDoneCircleOutline/>
         <h1>Last Updated</h1>
         <p>-</p>
@@ -50,7 +50,7 @@ const Body = () => {
          </div>
 
 
-          <div className=" flex flex-row items-center justify-center">
+          <div className=" flex flex-row items-center justify-center p-3">
             <h1 className=" mx-2">Top Relevant</h1>
             <IoIosArrowDown/>
 
@@ -58,30 +58,30 @@ const Body = () => {
           </div>
          
 
-         <hr className=" border-2 border-[#E1E4E6]"></hr>
+         <hr className=" border-b-2 border-[#E1E4E6]"></hr>
 
-            <div className=" mt-4 flex flex-row items-center justify-between">
+            <div className=" mt-4 flex flex-row items-center justify-between overflow-x-auto cursor-pointer whitespace-nowrap no-scrollbar   ">
              <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">Tools</h1>
+                <h1 className=" text-xs md:text-xl ">Tools</h1>
+             </div>
+
+             <div className=" bg-white  rounded-lg  text-black m-2 p-2">
+                <h1 className=" text-xs md:text-xl ">AWS Builder</h1>
              </div>
 
              <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">AWS Builder</h1>
-             </div>
-
-             <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">Start Build</h1>
+                <h1 className=" text-xs md:text-xl ">Start Build</h1>
              </div>
 
 
              <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">Build Supplies</h1>
+                <h1 className=" text-xs md:text-xl ">Build Supplies</h1>
              </div>
              <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">Tooling</h1>
+                <h1 className=" text-xs md:text-xl ">Tooling</h1>
              </div>
              <div className=" bg-white w-fit rounded-lg text-black m-2 p-2">
-                <h1 className=" text-xl ">BlueHosting</h1>
+                <h1 className=" text-xs md:text-xl ">BlueHosting</h1>
              </div>
             </div>
 
@@ -122,7 +122,7 @@ const Body = () => {
     <h1 className=" text-3xl mt-8">Related deals you might like for</h1>
        
 
-      <div className=" flex flex-row items-center justify-between space-x-4">
+      <div className=" flex flex-row items-center justify-between space-x-4 overflow-x-auto cursor-pointer whitespace-nowrap no-scrollbar ">
   
  
 
@@ -135,13 +135,13 @@ const Body = () => {
         </div>  
 
 
- <div className=" flex flex-row items-center mt-16 justify-between">
+ <div className=" flex flex-col space-y-4 md:flex-row items-center mt-16 justify-between mb-5 ">
 <div className=" text-[#5C6874] text-3xl  ">
 Sign up and get exclusive special deals
 </div>
 
 
-<div>
+<div  className="">
 
     <input type="text"  className=" h-12 w-96 rounded-l-xl px-4 border-2" placeholder="Enter Your Mail" value={value}
         onChange={handleChange}/>

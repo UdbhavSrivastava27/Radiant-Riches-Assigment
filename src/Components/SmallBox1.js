@@ -4,7 +4,7 @@ import pc from '../Assest/pc.png'
 
 const SmallBox1 = () => {
   return (
-    <div className=' bg-[#FFFFFF] w-fit rounded-lg mt-6 '>
+    <div className=' bg-[#FFFFFF] md:w-fit rounded-lg mt-6 px-2 '>
 
          <div className=' flex items-center justify-center m-4'>
 

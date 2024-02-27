@@ -7,8 +7,8 @@ const BodyBoxes4 = () => {
 
   const starCount = [1,2,3,4];
   return (
-    <div className=" mt-14 ">
-      <div className="relative flex flex-row items-center bg-white -mt-4  p-4 rounded-xl">
+    <div className=" m-14 md:m-0 md:mt-14 ">
+      <div className="relative flex flex-col md:flex-row items-center bg-white -mt-4  p-4 rounded-xl">
         <span className=" absolute top-8 rounded-full bg-white border-2  px-4 py-2  -left-5">
           4
         </span>
@@ -21,7 +21,7 @@ const BodyBoxes4 = () => {
           />
           <p>CDK</p>
         </div>
-        <div className="m-4  w-[483px] ">
+        <div className="m-4  md:w-[483px] ">
           <p className=" ">
             {" "}
             <span className=" font-semibold ">
@@ -87,12 +87,12 @@ const BodyBoxes4 = () => {
 
 
 
-          <h1 className=" text-blue-600 underline mt-4 ">Show more </h1>
+          <h1 className=" text-blue-600 underline mt-4 text-center md:text-start ">Show more </h1>
         </div>
          
 
         <div className=" flex flex-col ">
-          <div className=" flex flex-col items-center justify-center  p-2 bg-[#F3F9FF] rounded-b-md -mt-10  mx-6">
+          <div className=" flex flex-col items-center justify-center  p-2 bg-[#F3F9FF] rounded-b-md md:-mt-10  mx-6">
             <h1 className=" text-4xl m-2 mb-6 font-semibold">9.1</h1>
 
             <p className="  mx-4">Very Good</p>
@@ -107,7 +107,7 @@ const BodyBoxes4 = () => {
            </p>
           </div>
 
-          <div className=" bg-[#1B88F4] rounded-md  mt-64 ">
+          <div className=" bg-[#1B88F4] rounded-md mt-6 md:mt-64 ">
             <h1 className=" text-white text-center m-2">View</h1>
           </div>
         </div>

@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className=' h-[400px] bg-black text-[#B6BDC4] p-10 '>
 
-      <div className=' flex flex-row items-center justify-evenly mt-16'>
+      <div className=' flex  md:flex-row md:items-center justify-evenly mt-16 space-x-6 '>
 
         <div className=' flex flex-col   space-y-2 '>
          <h1 className=' text-[#FFFFFF] text-2xl'>CATEGORIES</h1>
@@ -31,7 +31,7 @@ const Footer = () => {
 
          <div className=' flex flex-row items-center justify-center'>
           <h1 className=' mx-2'>United States</h1>
-          <IoIosArrowDown />
+          <IoIosArrowDown size={25}/>
          </div>
       </div>
     </div>
